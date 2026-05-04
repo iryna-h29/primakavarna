@@ -1,0 +1,45 @@
+footer {
+    background: #805F49;
+    padding: 50px 0;
+    color: white;
+    line-height: 150%;
+    margin-top: 3em;
+    a {
+        color: white;
+        text-decoration: none;
+        // transition: all 1s;
+        &:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 400px) {
+            font-size: 0.8em;
+        }
+    }
+    h3, caption {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+        @media (max-width: 400px) {
+            font-size: 1em;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        @media (max-width: 420px) {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 1em;
+            .opening-time {
+                font-size: 0.8em;
+            }
+        }
+        
+    }
+    .opening-time {
+        th {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 1em;
+        }
+    }
+}
