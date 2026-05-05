@@ -21,6 +21,7 @@ if (array_key_exists("stranka", $_GET)) { // upravili jsme to pomoci .htaccess
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PrímaKavarna - váše oblíbená kavárna v srdci města. Nabízíme výběrovou kávu, domácí dezerty a útulnou atmosféru. Přijd'te si odpočinout nebo pracovat u šálku skvělé kávy!">
     <title><?php echo $seznamStranek[$stranka]->titulek; ?></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -66,17 +67,17 @@ if (array_key_exists("stranka", $_GET)) { // upravili jsme to pomoci .htaccess
             <h3 class="header-section__h3">Jsme tu pro vás již od roku 2002</h3>
             <ul class="social-links-list">
                 <li class="social-links-list__item">
-                    <a href="./" class="social-link" target="_blank" aria-label="Náš Facebook">
+                    <a href="./" class="social-link" target="_blank" rel="noopener" aria-label="Náš Facebook">
                         <i class="fa-brands fa-facebook social-icon" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="social-links-list__item" >
-                    <a href="./" class="social-link" target="_blank" aria-label="Náš Instagram">
+                    <a href="./" class="social-link" target="_blank" rel="noopener" aria-label="Náš Instagram">
                         <i class="fa-brands fa-instagram social-icon" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="social-links-list__item">
-                    <a href="./" class="social-link" target="_blank" aria-label="Náš Youtube">
+                    <a href="./" class="social-link" target="_blank" rel="noopener" aria-label="Náš Youtube">
                         <i class="fa-brands fa-youtube social-icon" aria-hidden="true"></i>
                     </a>
                 </li>
